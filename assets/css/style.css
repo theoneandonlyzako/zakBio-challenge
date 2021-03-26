@@ -25,11 +25,11 @@ header {
   flex-wrap: wrap;
   padding: 20px 35px;
   background-color: var(--tertiary-color);
-  background-image: url("../images/hero-bg.jpg");
-  background-size: cover;
-  background-position: center;
+  background-image: url("../images/zak.jpg");
+  background-size: 140%;
+  background-position: top;
   background-attachment: fixed;
-  background-position: 80%; 
+  background-position: 40%; 
 }
 
 header h1 {
@@ -84,11 +84,11 @@ section {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  background-image: url("../images/hero-bg.jpg");
-  background-size: cover;
-  background-position: center;
+  background-image: url("../images/zak.jpg");
+  background-size: 140%;
+  background-position: top;
   background-attachment: fixed;
-  background-position: 80%;
+  background-position: 40%;
 }
 
 .hero-form {
@@ -223,7 +223,7 @@ section {
   padding-bottom: 20px;
   text-align: center;
   margin: 0 auto 35px auto;
-  width 50%
+  width 50%;
   font-size: 48px;
   border-bottom: 3px solid;
   color: #024e76;
