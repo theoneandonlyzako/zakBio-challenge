@@ -60,7 +60,7 @@ header nav ul {
 header nav ul li a {
   padding: 10px 15px;
   font-weight: lighter;
-  font-size: 1.55vw;
+  font-size: 1.20vw;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -93,12 +93,13 @@ section {
  border: 3px solid var(--secondary-color);
  background-color: silver;
  padding: 20px;
- box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+ box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
  border-radius: 15px;
 }
 
 .hero-form h3 {
  font-size: 24px;
+ text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
  margin: 0;
 }
   
@@ -245,48 +246,48 @@ section {
   border-color: var(--primary-color);
 }
 
-.steps {
+.working {
   background: var(--secondary-color);
 }
 
-.step h3 {
+.work h3 {
   flex: 1 30%;
   color:var(--primary-color);
-  font-size: 46px;
+  font-size: 28px;
 }
 
-.step-info {
+.work-info {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   flex: 2 70%;
 }
 
-.step-text p {
+.work-text p {
   color:var(--primary-color);
   font-size: 18px;
 }
 
-.step-text h4 {
-  font-size: 26px;
+.work-text h4 {
+  font-size: 22px;
   line-height: 1.5;
   color:var(--primary-color);
 }
 
-.step-img {
+.work-img {
   flex: 1 12%;
   margin-right: 20px;
 }
 
-.step-img img {
+.work-img img {
   max-width: 100%;
 }
 
-.step-text {
+.work-text {
   flex: 12;
 }
 
-.step {
+.work {
   margin: 50px auto;
   padding-bottom: 50px;
   width: 80%;
@@ -440,7 +441,6 @@ footer h3 {
 footer div {
   line-height: 1.5;
   text-align: center;
-  justify-content: left;
 }
 
 footer a {
@@ -466,7 +466,6 @@ footer nav ul li a {
   padding: 0px 50px;
   font-weight: lighter;
   font-size: 1 vw;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 footer nav ul li a:hover {
@@ -499,7 +498,7 @@ footer nav ul li a:hover {
     font-size: 20px;
   }
 
-  footer h2, footer div {
+  footer h3, footer div {
     text-align: center;
     width: 100%;
   }
@@ -509,10 +508,12 @@ footer nav ul li a:hover {
   }
   
   .hero-cta {
+    justify-content: start;
     text-align: center;
   }
 
   .section-title {
+    text-align: center;
     width: 80%;
   }
   
@@ -531,25 +532,25 @@ footer nav ul li a:hover {
     padding: 30px 15px;
   }
 
-  .step h3 {
+  .work h3 {
     flex: 1 100%;
     text-align: center;
   }
 
-  .step-info {
+  .work-info {
     flex: 2 100%;
     text-align: center;
     justify-content: center;
   }
 
-  .step-img {
+  .work-img {
     flex: 0 32%;
     margin-right: 0;
     margin-top: 15px;
     margin-bottom: 15px;
   }
 
-  .step-text {
+  .work-text {
     flex: 100%;  
   }
 
