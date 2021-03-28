@@ -21,7 +21,7 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 20px 35px;
+  padding: 15px 45px;
   background-color: var(--secondary-color);
   background-size: 140%;
   background-position: top;
@@ -70,9 +70,10 @@ header nav ul li a:hover {
   border-radius: 15px;
   text-shadow: none;
 }
+/*HEADER END*/
 
 section {
-  padding: 60px;
+  padding: 110px;
 }
 
 /* Hero Style Start */
@@ -138,9 +139,9 @@ section {
 
   /* Hero Call to Action */
 .hero-cta {
-  width: 40%;
   text-align: center;
-  margin: 18%;
+  margin-top: 20px;
+  margin-bottom: 60px;
   color: #fff;
   font-size: 18px;
   line-height: 1.2;
@@ -331,6 +332,7 @@ section {
 }
   
 .trainer-bio p {
+  margin: 10px;
   font-size: 17px;
 }
 
