@@ -5,7 +5,7 @@
 }
 
 :root {
-  --primary-color: rgb(154, 226, 22);
+  --primary-color: rgb(132, 203, 0);
   --secondary-color: #024e76;
   --tertiary-color: #39a6b2;
 }
@@ -87,58 +87,6 @@ section {
   background-repeat: no-repeat;
 }
 
-.hero-form {
- width: 40%;
- margin: 3.5%;
- border: 3px solid var(--secondary-color);
- background-color: silver;
- padding: 20px;
- box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
- border-radius: 15px;
-}
-
-.hero-form h3 {
- font-size: 24px;
- text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
- margin: 0;
-}
-  
-.hero-form p {
- margin: 5px 0 15px 0;
- text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);
-}
-  
-.form-input {
- border: 1px solid var(--secondary-color);
- display: block;
- padding: 7px 15px;
- font-size: 16px;
- color: var(--secondary-color);
- width: 100%;
- margin-bottom: 15px;
- border-radius: 10px;
- background-color: rgba(255,255,255, 0.75);
-}
-
-.form-input:focus {
-  background-color: rgba(255,255,255, 1);
-  outline: none;
-}
-
-.hero-form button {
- color: var(--primary-color);
- background-color: var(--secondary-color);
- border: none;
- padding: 10px 20px;
- font-size: 16px;
- border-radius: 10px;
-}
-
-.hero-form button:hover {
-  background-color: var(--primary-color);
-  color: var(--secondary-color);
-}
-
   /* Hero Call to Action */
 .hero-cta {
   text-align: left;
@@ -157,65 +105,6 @@ section {
   color: var(--primary-color);
 }
 
-.checkbox-wrapper input, .radio-wrapper input {
-  opacity: 0;
-}
-
-.checkbox-wrapper label, .radio-wrapper label {
-  position: relative;
-  left: 10px;
-  margin: 10px;
-  line-height: 1.6;
-}
-
-.checkbox-wrapper label::before, .radio-wrapper label::before {
-  content: "";
-  height: 20px;
-  width: 20px;
-  background: rgba(255, 255, 255, 0.75);  
-  border: 1px solid var(--secondary-color);  
-  position: absolute;
-  top: -4px;
-  left: -30px;
-}
-
-.radio-wrapper label::before {
-  border-radius: 50%;
-}
-
-.radio-wrapper label::after {
-  content: "";
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background: var(--secondary-color);
-  position: absolute;
-  left: -29px;
-  top: -3px;
-  background-image: radial-gradient(circle, var(--tertiary-color), var(--secondary-color));
-}
-
-.checkbox-wrapper label::after {
-  content: "";
-  height: 6px;
-  width: 14px;
-  border-left: 2px solid var(--secondary-color);
-  border-bottom: 2px solid var(--secondary-color);
-  position: absolute;
-  left: -26px;
-  top: 1px;
-  transform: rotate(-58deg);
-}
-
-.checkbox-wrapper input + label::after, 
-.radio-wrapper input + label::after {
-  content: none;
-}
-
-.checkbox-wrapper input:checked + label::after, 
-.radio-wrapper input:checked + label::after {
-  content: "";
-}
   /* Hero Style End */
 
  .section-title {
@@ -337,6 +226,118 @@ section {
 .trainer-bio p {
   margin: 10px;
   font-size: 17px;
+}
+
+.hero-form {
+  width: 40%;
+  margin: 3.5%;
+  border: 3px solid var(--secondary-color);
+  background-color: silver;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+ }
+ 
+ .hero-form h3 {
+  font-size: 24px;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  margin: 0;
+ }
+   
+ .hero-form p {
+  margin: 5px 0 15px 0;
+  text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);
+ }
+   
+ .form-input {
+  border: 1px solid var(--secondary-color);
+  display: block;
+  padding: 7px 15px;
+  font-size: 16px;
+  color: var(--secondary-color);
+  width: 100%;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  background-color: rgba(255,255,255, 0.75);
+ }
+ 
+ .form-input:focus {
+   background-color: rgba(255,255,255, 1);
+   outline: none;
+ }
+ 
+ .hero-form button {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 10px;
+ }
+ 
+ .hero-form button:hover {
+   background-color: var(--primary-color);
+   color: var(--secondary-color);
+ }
+ 
+.checkbox-wrapper input, .radio-wrapper input {
+  opacity: 0;
+}
+
+.checkbox-wrapper label, .radio-wrapper label {
+  position: relative;
+  left: 10px;
+  margin: 10px;
+  line-height: 1.6;
+}
+
+.checkbox-wrapper label::before, .radio-wrapper label::before {
+  content: "";
+  height: 20px;
+  width: 20px;
+  background: rgba(255, 255, 255, 0.75);  
+  border: 1px solid var(--secondary-color);  
+  position: absolute;
+  top: -4px;
+  left: -30px;
+}
+
+.radio-wrapper label::before {
+  border-radius: 50%;
+}
+
+.radio-wrapper label::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--secondary-color);
+  position: absolute;
+  left: -29px;
+  top: -3px;
+  background-image: radial-gradient(circle, var(--tertiary-color), var(--secondary-color));
+}
+
+.checkbox-wrapper label::after {
+  content: "";
+  height: 6px;
+  width: 14px;
+  border-left: 2px solid var(--secondary-color);
+  border-bottom: 2px solid var(--secondary-color);
+  position: absolute;
+  left: -26px;
+  top: 1px;
+  transform: rotate(-58deg);
+}
+
+.checkbox-wrapper input + label::after, 
+.radio-wrapper input + label::after {
+  content: none;
+}
+
+.checkbox-wrapper input:checked + label::after, 
+.radio-wrapper input:checked + label::after {
+  content: "";
 }
 
 .contact {
