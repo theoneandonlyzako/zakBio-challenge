@@ -15,6 +15,7 @@ To create a portfolio that will showcase my skills and talents to potential empl
 - removed all unused sections and css</br>
 - linked the heading attributes to jump to the coorisponding feature on the page.</br>
 - linked the footer attributes to take you to my linkedin page and one to download my resume</br>
+- updated image below</br>
 
 
 - Git Repo - https://github.com/theoneandonlyzako/zakBio-challenge.git </br>
