@@ -92,7 +92,7 @@ section {
   text-align: left;
   margin-top: 40px;
   margin-bottom: 35%;
-  margin-right: 55%;
+  margin-right: 45%;
   color: #fff;
   font-size: 20px;
   line-height: 1.2;
@@ -111,7 +111,7 @@ section {
   padding-bottom: 20px;
   text-align: center;
   margin: 0 auto 35px auto;
-  width: 50%;
+  width: 100%;
   font-size: 48px;
   border-bottom: 3px solid;
   color: var(--primary-color);
@@ -136,13 +136,15 @@ section {
 }
 
 .working {
+  display:flex;
+  flex-wrap: wrap;
   background: var(--secondary-color);
 }
 
-.work h3 {
+.working h3 {
   flex: 1 30%;
   color:var(--primary-color);
-  font-size: 28px;
+  font-size: 18px;
 }
 
 .work-info {
@@ -177,15 +179,36 @@ section {
 }
 
 .work {
-  margin: 50px auto;
-  padding-bottom: 50px;
-  width: 80%;
+  margin: 0;
+  padding-bottom: 2px;
+  width: 50%;
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  border-bottom: 1px solid var(--tertiary-color);
+  justify-content: flex-end;
+  /* flex-wrap: wrap; */
+  /* align-items: center; */ 
+  /* justify-content: space-between; */
 }
+
+.buddy {
+  margin: 0;
+  padding-bottom: 2px;
+  width: 100%;
+}
+
+.robot {
+  margin: 0;
+  padding-bottom: 2px;
+  width: 50%;
+  text-align: center;
+}
+
+.work3 {
+  margin: 0;
+  padding-bottom: 2px;
+  width: 50%;
+  text-align: center;
+}
+
 
 .trainers {
   max-width: 575px;
@@ -499,6 +522,19 @@ footer nav ul li a:hover {
     font-size: 20px;
   }
 
+  .about-me {
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 35%;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+  .about-me h2 {
+    padding: 0%;
+  }
+
   footer h3, footer div {
     text-align: center;
     width: 100%;
@@ -509,8 +545,12 @@ footer nav ul li a:hover {
   }
   
   .hero-cta {
-    justify-content: start;
+    justify-content: center;
     text-align: center;
+    margin-top: 40px;
+    margin-bottom: 35%;
+    margin-right: 5%;
+    margin-left: 5%;
   }
 
   .section-title {
@@ -539,6 +579,12 @@ footer nav ul li a:hover {
   }
 
   .work-info {
+    flex: 2 100%;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .work-info2 {
     flex: 2 100%;
     text-align: center;
     justify-content: center;
