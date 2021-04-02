@@ -89,6 +89,7 @@ section {
 
   /* Hero Call to Action */
 .hero-cta {
+  padding: 2px;
   text-align: left;
   margin-top: 40px;
   margin-bottom: 35%;
@@ -97,12 +98,19 @@ section {
   font-size: 20px;
   line-height: 1.2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
 }
 
 .hero-cta h2 {
   font-style: italic;
   font-size: 48px;
   color: var(--primary-color);
+}
+
+.about-me {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
 }
 
   /* Hero Style End */
@@ -178,17 +186,6 @@ section {
   flex: 12;
 }
 
-.work {
-  margin: 0;
-  padding-bottom: 2px;
-  width: 50%;
-  display: flex;
-  justify-content: flex-end;
-  /* flex-wrap: wrap; */
-  /* align-items: center; */ 
-  /* justify-content: space-between; */
-}
-
 .buddy {
   margin: 0;
   padding-bottom: 2px;
@@ -222,10 +219,13 @@ section {
   flex: 1;
   margin: 100px;
   background: var(--secondary-color);
-  color: var(--primary-color)
+  color: var(--primary-color);
+  border-radius: 10px;
 }
 
 .trainer img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   width: 100%;
 }
   
