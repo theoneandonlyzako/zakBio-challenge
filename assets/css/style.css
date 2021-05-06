@@ -2,12 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 :root {
-  --primary-color: rgb(132, 203, 0);
-  --secondary-color: #024e76;
-  --tertiary-color: #39a6b2;
+  --primary-color: whitesmoke;
+  --secondary-color: #393939;
+  --tertiary-color: #252525;
 }
 
 body {
@@ -22,7 +23,7 @@ header {
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 15px 45px;
-  background-color: var(--secondary-color);
+  background-color: var(--tertiary-color);
   background-size: 140%;
   background-position: top;
   background-attachment: fixed;
@@ -36,6 +37,7 @@ header h1 {
   color: var(--primary-color);
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
 
 header a {
   text-decoration: none;
@@ -69,6 +71,7 @@ header nav ul li a:hover {
   color: var(--secondary-color);
   border-radius: 15px;
   text-shadow: none;
+  transform: scale(1.4);
 }
 /*HEADER END*/
 
@@ -99,7 +102,7 @@ section {
   line-height: 1.2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
   background-color: rgba(0, 0, 0, 0.6);
-  border-radius: 10px;
+  border-radius: 60px;
 }
 
 .hero-cta h2 {
@@ -109,8 +112,11 @@ section {
 }
 
 .about-me {
+  margin: 10;
+  padding: 20;
   background-color: rgba(0, 0, 0, 0.6);
-  border-radius: 10px;
+  border-radius: 15px;
+  width: 100%;
 }
 
   /* Hero Style End */
@@ -160,6 +166,12 @@ section {
   flex-wrap: wrap;
   align-items: center;
   flex: 2 70%;
+  padding: 30px;
+
+}
+
+.work-info:hover{
+  transform: scale(1.1);
 }
 
 .work-text p {
@@ -174,8 +186,7 @@ section {
 }
 
 .work-img {
-  flex: 1 12%;
-  margin-right: 20px;
+  box-shadow: 0px 0px 14px 7px var(--tertiary-color);  
 }
 
 .work-img img {
@@ -186,10 +197,11 @@ section {
   flex: 12;
 }
 
-.buddy {
+.hoppiness {
   margin: 0;
   padding-bottom: 2px;
   width: 100%;
+  text-align: center;
 }
 
 .robot {
@@ -208,31 +220,38 @@ section {
 
 
 .trainers {
-  max-width: 575px;
+  padding: 50px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
 }
 
 .trainer {
+  display: flex;
+  flex-direction: column;
   flex: 1;
-  margin: 100px;
+  margin: 70px;
   background: var(--secondary-color);
   color: var(--primary-color);
   border-radius: 10px;
+  align-items: center;
+  justify-content: center;
 }
 
 .trainer img {
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  width: 100%;
+  padding-top: 25px;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  width: 30%;  
 }
   
 .trainer-bio {
   text-align: center;
-  padding: 25px;
+  padding: 10px;
   line-height: 1.3;
+  width: 100%;
 }
   
 .trainer-bio h3 {
@@ -247,15 +266,17 @@ section {
 }
   
 .trainer-bio p {
+  line-height: 30px;
   margin: 10px;
-  font-size: 17px;
+  font-size: 22px;
+  padding: 50px;
 }
 
 .hero-form {
   width: 40%;
   margin: 3.5%;
   border: 3px solid var(--secondary-color);
-  background-color: silver;
+  background-color: var(--tertiary-color);
   padding: 20px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   border-radius: 15px;
@@ -363,6 +384,10 @@ section {
   content: "";
 }
 
+.my-work {
+display: flex;
+}
+
 .contact {
   background: var(--secondary-color);
 }
@@ -377,8 +402,11 @@ section {
   flex-wrap: wrap;
 }
 
+
 .contact-info iframe {
   height: 400px;
+  width: 400px;
+  border-radius: 15px;
 }
   
 .contact-info div {
@@ -451,13 +479,13 @@ footer {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  background: var(--primary-color);
+  background-color: var(--tertiary-color);
   width: 100%;
   padding: 5px 35px;
 }
 
 footer h3 {
-    color: var(--secondary-color);
+    color: var(--primary-color);
     font-size: 30px;
     margin: 0;
 }
@@ -468,7 +496,7 @@ footer div {
 }
 
 footer a {
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 footer nav {
